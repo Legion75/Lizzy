@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
-    "start": "node src/app.ts",
-    "postinstall": "tsc"
+    "build": "tsc",
+    "start": "node ./dist/app.js"
   },
   "author": "",
   "license": "ISC",
