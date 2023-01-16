@@ -13,7 +13,7 @@ app.use(deserializeUser);
 
 app.use(router);
 
-const port = config.get('port');
+const port = process.env.PORT || config.get('port');
 
 app.listen(port,( )=> {
     log.info(`App started at http://localhost:${port}`);
