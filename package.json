@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
-    "postinstall": "tsc",
+    "build": "tsc",
     "start": "node ./build/src/app.js"
   },
   "author": "",
