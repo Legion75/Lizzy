@@ -1,1 +1,1 @@
-worker: npm run start
+web: node build/src/app.js
