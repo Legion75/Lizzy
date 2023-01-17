@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
     "build": "tsc",
-    "start": "npx nodemon build/src/app.js"
+    "start": "node build/src/app.js"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +21,7 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
+    "@types/node": "^18.11.18",
     "argon2": "^0.30.3",
     "config": "^3.3.8",
     "dayjs": "^1.11.7",
